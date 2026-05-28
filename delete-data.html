@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Deletion Request - AI Simple Ledger</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5d6b82;
+      --line: #e4eaf2;
+      --accent: #0ea5d8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: 40px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 18px 60px rgba(22, 36, 60, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 24px;
+    }
+
+    .meta {
+      margin-bottom: 26px;
+      color: var(--muted);
+    }
+
+    .notice {
+      margin: 24px 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: #ecf9fe;
+      border-radius: 12px;
+    }
+
+    a {
+      color: #087bb2;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+        padding: 28px 20px;
+        border: 0;
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Data Deletion Request</h1>
+    <p class="meta">AI Simple Ledger / AI 简洁记账 / AI 簡潔記帳 / AIシンプル家計簿<br>Developer: Kouki I<br>Last updated: May 28, 2026</p>
+
+    <div class="notice">
+      AI Simple Ledger is a local-first bookkeeping app. The core ledger data is stored on your device by default, and the app does not require an account.
+    </div>
+
+    <h2>How to Delete Data Stored in the App</h2>
+    <p>You can delete your app data directly on your device:</p>
+    <ol>
+      <li>Open AI Simple Ledger.</li>
+      <li>Delete any ledger, transaction, category, recurring rule, AI configuration, or WebDAV configuration you no longer want to keep.</li>
+      <li>You can also uninstall the app to remove locally stored app data from your device, subject to your operating system's backup and restore behavior.</li>
+    </ol>
+
+    <h2>Backup Files and WebDAV Data</h2>
+    <p>If you exported JSON backup files, those files are stored wherever you saved or shared them. Delete those files from that location if you no longer want to keep them.</p>
+    <p>If you enabled WebDAV sync, your backup data may be stored on the WebDAV server you configured. To delete that data, remove the backup files from your WebDAV storage provider.</p>
+
+    <h2>Optional AI Provider Data</h2>
+    <p>If you used optional AI features, requests may have been sent to the AI model provider you selected with your own API key. To request deletion of data held by that AI provider, please contact the provider directly according to its privacy policy and account controls.</p>
+
+    <h2>Requesting Help</h2>
+    <p>If you need help with data deletion related to AI Simple Ledger, you can contact the developer:</p>
+    <p><strong>Kouki I</strong><br>Email: <a href="mailto:kouki@proton.me">kouki@proton.me</a></p>
+    <p>When contacting us, please include the app name, a brief description of what you want to delete, and whether the data is stored locally, in an exported backup file, or on your configured WebDAV service.</p>
+
+    <h2>What Data May Be Deleted or Retained</h2>
+    <p>The following data can be deleted by the user from the app or device: ledgers, transaction records, categories, recurring rules, app settings, AI provider settings, WebDAV settings, and locally exported backup files.</p>
+    <p>AI Simple Ledger does not operate a user account server for the app. Therefore, there is no app account database to delete. Data stored by third-party AI providers or WebDAV services is controlled by those providers and should be deleted through those services.</p>
+    <p>We do not intentionally retain user ledger data on our own servers. If you contact us by email, we may retain the email conversation only as long as needed to respond to your request and maintain support records.</p>
+
+    <p>Privacy Policy: <a href="privacy.html">https://afrody9387.github.io/ai-simple-ledger-privacy/privacy.html</a></p>
+  </main>
+</body>
+</html>
