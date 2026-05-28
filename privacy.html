@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - AI Simple Ledger</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5d6b82;
+      --line: #e4eaf2;
+      --accent: #0ea5d8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: 40px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 18px 60px rgba(22, 36, 60, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .meta {
+      margin-bottom: 26px;
+      color: var(--muted);
+    }
+
+    .notice {
+      margin: 24px 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: #ecf9fe;
+      border-radius: 12px;
+    }
+
+    a {
+      color: #087bb2;
+    }
+
+    code {
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: #eef3f8;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+        padding: 28px 20px;
+        border: 0;
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">AI Simple Ledger / AI 简洁记账 / AI 簡潔記帳 / AIシンプル家計簿<br>Last updated: May 28, 2026</p>
+
+    <p>This Privacy Policy explains how AI Simple Ledger ("the App") handles information when you use the App. The App is provided by <strong>Kouki I</strong>. If you have questions, contact us at <strong>kouki@proton.me</strong>.</p>
+
+    <div class="notice">
+      <strong>Privacy-first summary:</strong> The core bookkeeping features run locally on your device. The App does not require an account and does not upload your ledger data by default. Optional AI and WebDAV features only work after you configure your own service credentials.
+    </div>
+
+    <h2>1. Information You Enter in the App</h2>
+    <p>The App lets you enter and manage bookkeeping information, including:</p>
+    <ul>
+      <li>Ledger names, currencies, and settings</li>
+      <li>Income and expense records, including amount, date, category, title, and notes</li>
+      <li>Custom categories, icons, colors, and recurring entry rules</li>
+      <li>Optional AI provider settings, such as API keys, model names, base URLs, and prompts</li>
+      <li>Optional WebDAV settings, such as server address, username, and password</li>
+    </ul>
+    <p>This information is stored on your device unless you choose to export it, restore it, use AI features, or enable WebDAV sync.</p>
+
+    <h2>2. Local-First Bookkeeping</h2>
+    <p>The App's basic bookkeeping features work locally on your device. No account registration is required. We do not operate a server that automatically receives your ledger data, and the App does not upload your ledger data by default.</p>
+
+    <h2>3. Optional AI Features</h2>
+    <p>The App includes optional AI features, such as AI quick entry, receipt photo recognition, and financial analysis. These features are disabled unless you enter your own AI provider configuration, including an API key.</p>
+    <p>When you use an AI feature, the App sends the relevant request data to the AI model provider you selected. Depending on the feature, this may include text you entered, ledger records needed for analysis, receipt images, extracted receipt content, currency information, and App-generated prompts.</p>
+    <p>AI processing is provided by the model service provider you choose. Please review that provider's privacy policy and terms before using AI features. AI analysis is for reference only and is not professional financial advice.</p>
+
+    <h2>4. Camera and Photo Access</h2>
+    <p>The App may request camera or photo library access so you can take or select receipt images for AI receipt recognition. Receipt images are used for the feature you request. They may be sent to your selected AI model provider if you use AI receipt recognition.</p>
+
+    <h2>5. Optional WebDAV Sync and Backup</h2>
+    <p>WebDAV sync is optional and only runs after you configure your own WebDAV server information. When you use WebDAV sync, the App uploads backup data to the WebDAV server address you entered.</p>
+    <p>Local JSON export/import and WebDAV backups may include ledger data, categories, settings, AI API configuration, and WebDAV configuration. Please store backup files securely and only use WebDAV services you trust.</p>
+
+    <h2>6. Data Sharing</h2>
+    <p>We do not sell your data. The App may transmit data only when you actively use features that require transmission, including:</p>
+    <ul>
+      <li>Sending AI requests to the AI provider you configured</li>
+      <li>Uploading or downloading backups through the WebDAV server you configured</li>
+      <li>Importing or exporting local backup files that you choose to handle</li>
+    </ul>
+    <p>The App does not include third-party advertising SDKs.</p>
+
+    <h2>7. Data Security</h2>
+    <p>The App stores data locally on your device and uses system-provided storage. You are responsible for keeping your device, exported JSON backup files, AI API keys, and WebDAV credentials secure. If you sync data to a third-party WebDAV service or send data to an AI provider, that provider's security practices also apply.</p>
+
+    <h2>8. Data Retention and Deletion</h2>
+    <p>You can delete records, ledgers, categories, settings, and saved configurations inside the App. You can also uninstall the App to remove locally stored App data from your device, subject to your operating system's backup and restore behavior.</p>
+    <p>If you exported backup files or synced data to WebDAV, you may need to delete those files separately from the storage location or service you used.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>The App is not directed to children. It is intended as a personal bookkeeping and finance management tool. We do not knowingly collect personal information from children.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy when the App changes or when legal or platform requirements change. The updated version will be posted on this page with a new "Last updated" date.</p>
+
+    <h2>11. Contact</h2>
+    <p>If you have questions about this Privacy Policy or the App's data handling, contact:</p>
+    <p><strong>Kouki I</strong><br>
+      Email: <strong>kouki@proton.me</strong></p>
+  </main>
+</body>
+</html>
